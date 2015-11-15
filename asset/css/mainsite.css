@@ -1,0 +1,351 @@
+.Hidden {
+	display: none;
+}
+
+.Wrapper {
+	overflow: visible;
+	height: 1%;
+}
+
+html>body .Wrapper {
+	overflow: hidden;
+	height: auto;
+}
+
+#thewindowbackground {
+	background-color: #000;
+	left: 0;
+	top: 0;
+	opacity: .8;
+	z-index: 990;
+	width: auto;
+	position: absolute;
+	display: none;
+	filter: alpha(opacity=80);
+}
+
+#ad_zone_TV {
+	z-index: 1000;
+}
+
+#bannerPopup {
+	margin: auto;
+	width: 660px;
+	height: 462px;
+	z-index: 1000;
+	position: absolute;
+	display: none;
+	background-color: #000;
+}
+
+#btClose {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 101;
+	cursor: pointer;
+}
+
+a#btClose:link,a#btClose:visited {
+	background: url(../images/popup-close.png) no-repeat;
+	width: 71px;
+	height: 32px;
+	display: block;
+	position: absolute;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	text-indent: -9999px;
+}
+
+a#btClose:hover {
+	background-position: 0 -32px;
+}
+
+a#btCloseBottom:link,a#btCloseBottom:visited {
+	background: #000;
+	width: 23px;
+	height: 23px;
+	display: block;
+	position: absolute;
+	top: -3px;
+	right: -2px;
+	color: #fff;
+	text-decoration: none;
+	padding: 3px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#bannerPopupBottom {
+	width: 300px!important;
+	height: 100px!important;
+	z-index: 1000!important;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	display: none;
+	overflow: hidden;
+	padding-top: 26px;
+	border: 0!important;
+}
+
+#bannerPopupBottom img {
+	border: 1px solid #999;
+}
+
+#btCloseBottom {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 991;
+	cursor: pointer;
+}
+
+#boxFlashAds {
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	left: -9999em;
+	top: -9999em;
+}
+
+.fixedBanner {
+	position: fixed!important;
+}
+
+form.CheckClose {
+	display: block;
+	float: left;
+	color: #9e9e9e;
+	font-size: 11px;
+}
+
+#bannerPopup .OptionClose {
+	background: url(../images/bg-check.png) no-repeat;
+	display: block;
+	height: 30px;
+	width: 345px;
+	float: right;
+	padding-top: 3px;
+}
+
+a.PopupBtnClose:link,a.PopupBtnClose:visited {
+	background: url(../images/popup-new-cookie-close.gif) no-repeat;
+	width: 51px;
+	height: 16px;
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	text-indent: -9999px;
+	float: right;
+	margin: 4px 5px 0 0;
+}
+
+a.PopupBtnClose:hover {
+	background-position: 0 -16px;
+}
+
+.PopupBG {
+	background: #000;
+}
+
+#bannerPopup img {
+	padding: 32px 0 0 5px;
+}
+
+#bannerPopup embed {
+	margin: 32px 0 0 5px;
+}
+
+ul.Disc li {
+	list-style-type: disc;
+	margin-bottom: 0;
+	padding: 0 0 0 5px;
+	text-align: justify;
+}
+
+.breadcrumb ul li, ul li span {
+	white-space: nowrap;
+}
+
+#topbar {
+	height: 40px;
+	display: block;
+	font-family: Tahoma,Arial,Verdana,sans-serif;
+	position: relative;
+	z-index: 800;
+	overflow: hidden;
+}
+
+#Topbar_Forum {
+	height: 40px;
+	display: block;
+	font-family: Tahoma,Arial,Verdana,sans-serif;
+	position: relative;
+	z-index: 800;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+h5,h6,form,ul,ul li,ol,ol li,dl,dl dt,dl dd {
+	margin: 0;
+	padding: 0;
+}
+
+#boxTop {
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 2;
+	background: url(http://img.zing.vn/eventgame/intro/general/images/top-bar/bg.jpg) repeat-x;
+	height: 40px;
+	overflow: visible;
+}
+
+#box {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	height: 40px;
+	overflow: visible;
+}
+
+.Left {
+	float: left;
+}
+
+.Right {
+	float: right;
+}
+
+.BoxLeft {
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	background: #000;
+	height: 40px;
+	width: 200px;
+	line-height: 0;
+	display: none;
+}
+
+#Logo a {
+	background: url(http://img.zing.vn/eventgame/intro/topbar/platform/images/space.gif);
+	height: 40px;
+	width: 220px;
+	display: block;
+	z-index: 20;
+}
+
+.BoxLeft a:link {
+	width: 216px;
+	text-decoration: none;
+}
+
+.StyleLink {
+	color: #737373;
+	text-decoration: none;
+	padding-top: 12px;
+	font-weight: bold;
+	font-size: 13px;
+	float: right;
+}
+
+.StyleLink a:link,.StyleLink a:visited,.StyleLink a:active {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.StyleLink a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#gameBanner {
+	width: 1000px;
+	margin: 0 auto;
+	z-index: 10;
+	position: relative;
+}
+
+.HoverBanner {
+	height: 150px;
+	width: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.SBanner {
+	float: left;
+	padding: 0;
+}
+
+.BBanner {
+	display: none;
+	height: 0;
+}
+
+.BigBanner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+}
+
+.TBoxBanner {
+	width: 1000px;
+	display: block;
+	height: 40px;
+	float: left;
+	overflow: visible;
+}
+
+.Detect {
+	background: none repeat scroll 0 0 transparent;
+	border: 0;
+	height: 540px;
+	padding: 0;
+	width: 848px;
+	position: absolute;
+	z-index: 1001;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.Detect a.SurveyClose {
+	background: url(http://img.zing.vn/eventgame/intro/topbar/platform/images/close.gif) no-repeat;
+	width: 35px;
+	height: 34px;
+	display: block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.Detect a.SurveyClose:hover {
+	background-position: 0 -34px;
+}
+
+#advTopBar1_temp {
+	z-index: 1000;
+	display: none;
+}
+
+.Zone {
+	z-index: 10;
+	display: none;
+} 

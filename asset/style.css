@@ -1,0 +1,130 @@
+body {
+	font: 13px/20px Tahoma,Arial,Verdana,sans-serif;
+	color: #000;
+	background: url(images/bg-wrapper-tintuc-tet-2015.jpg) no-repeat fixed #000;
+	font-size: 13px;
+	line-height: 20px;
+}
+*{
+
+	margin: 0;
+	padding: 0;
+}
+#outerBgBottom{
+	background: none !important;
+}
+h1,h2,h3,h4,h5,h6,p,form,ul,ul li,ol,ol li,dl,dl dt,dl dd,blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+ul,ul li,ol,ol li {
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	outline: 0;
+}
+
+a:link,a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+fieldset {
+	border: 0;
+	background: 0;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset legend {
+	display: none;
+}
+
+input,select,textarea {
+	font: 13px/19px Tahoma,Arial,Verdana,sans-serif;
+}
+
+input[type="image"],input[type="submit"] {
+	outline: 0;
+}
+
+input {
+	vertical-align: baseline;
+	margin: -1px -2px;
+}
+
+html>/**/body input {
+	vertical-align: text-bottom;
+	margin: 0;
+}
+
+object,embed {
+	outline: 0;
+}
+  .textbox { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.44); 
+    color: #333; 
+    border: 1px solid #A4A4A4; 
+    padding: 4px 8px 4px 4px !important;
+    line-height: 1; 
+    width: 275px; 
+    height:25px;
+	vertical-align: super;
+  } 
+ .textbox:hover { 
+    border: 1px solid #00A3CA; 
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+  } 
+ .textbox:focus { 
+    border: 1px solid #4d90fe; 
+    outline: none; 
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3);  
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    background: rgb(255, 255, 255); 
+	}
+.form-group{
+	margin-bottom:25px
+}
+.form-group label{
+	min-width:120px;
+	vertical-align: super;
+	display:inline-block;
+}
+form button{
+  color: #f8f6ef;
+  text-decoration: none;
+  background: #8c1919;
+  padding:10px 20px;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+form button:hover{
+  background: #B21D1D;
+}
+form button:active{
+  background: #930000;
+}
+#copy-right{
+position: absolute;
+  bottom: 35px;
+  right: 50px;
+  color: #343434;
+  font-weight: bold;
+  font-family: cursive;
+  cursor:default;
+  pointer-events: none;
+}
