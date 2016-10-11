@@ -1,7 +1,7 @@
 [Version]
 Latest=1.00.6501
 Launch=1.0.3.73
-#NewLaunch=1.0.3.83
+NewLaunch=1.0.3.83
 #UseAntForce=0
 #LatestDownload=0
 
