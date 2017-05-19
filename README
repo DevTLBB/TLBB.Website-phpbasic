@@ -1,8 +1,0 @@
-Coder: Dark.Hades
-Code Name: Quản lý Server Thiên Long Bát Bộ
-Code Type: PHP & MySQL
-Mô hình: M-V-C
-
-============== Hướng dẫn cài đặt:
-Mở /inc/config.inc.php:
-Sửa các thông tin kết nối đến database.
