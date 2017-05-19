@@ -19,4 +19,4 @@ Open **/inc/config.inc.php** and edit database connect infomation.
 
 # Credits
 
-- Dark.Hades
+- [@Dark.Hades](https://github.com/HadesD)
