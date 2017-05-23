@@ -5,13 +5,13 @@
 
 # Demos
 
-![demos](https://github.com/HadesD/TLBB-Web/raw/master/Demo/1.jpg)
+![demos](https://github.com/DevTLBB/Website.PHP-Basic.MVC/raw/master/Demo/1.jpg)
 
-![demos](https://github.com/HadesD/TLBB-Web/raw/master/Demo/2.jpg)
+![demos](https://github.com/DevTLBB/Website.PHP-Basic.MVC/raw/master/Demo/2.jpg)
 
-![demos](https://github.com/HadesD/TLBB-Web/raw/master/Demo/3.jpg)
+![demos](https://github.com/DevTLBB/Website.PHP-Basic.MVC/raw/master/Demo/3.jpg)
 
-![demos](https://github.com/HadesD/TLBB-Web/raw/master/Demo/4.jpg)
+![demos](https://github.com/DevTLBB/Website.PHP-Basic.MVC/raw/master/Demo/4.jpg)
 
 # Installation
 
